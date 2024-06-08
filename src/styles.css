@@ -1,0 +1,18 @@
+.App {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.StepCounter {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
