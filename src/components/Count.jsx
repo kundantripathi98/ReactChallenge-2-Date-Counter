@@ -5,14 +5,14 @@ let Count = ({ step }) => {
   const [count, setCount] = useState(0);
   const [currentDate, setCurrentDate] = useState(new Date());
 
-  function decreaseCount(days) {
+let decreaseCount => (days) {
     setCount((c) => c - step);
     const newDate = new Date(currentDate);
     newDate.setDate(newDate.getDate() - days);
     setCurrentDate(newDate);
   }
 
-  function increaseCount(days) {
+let increaseCount => (days) {
     setCount((c) => c + step);
     const newDate = new Date(currentDate);
     newDate.setDate(newDate.getDate() + days);
